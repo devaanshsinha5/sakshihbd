@@ -770,123 +770,99 @@ else init();
     </div>
 
     <!-- Scattered gallery grid — mixed sizes, slight rotations -->
-    <div id="gallery-grid" style="position:relative;min-height:900px;">
+    <div id="gallery-grid" style="display:grid;grid-template-columns:repeat(3,1fr);gap:3rem;max-width:1000px;margin:0 auto;padding:1rem;">
 
-      <!-- Item 1: Chanel Bag -->
-      <div class="gallery-item" style="position:absolute;top:0;left:2%;transform:rotate(-2deg);width:280px;">
-        <div style="background:#fff;padding:14px 14px 40px;box-shadow:3px 3px 18px rgba(44,26,14,0.12);">
-          <img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=500&q=80" alt="Chanel Classic Flap Bag" style="width:100%;height:220px;object-fit:cover;display:block;" onerror="this.src='https://via.placeholder.com/500x400?text=Chanel+Flap+Bag'"/>
-          <div style="margin-top:12px;">
-            <p style="font-family:'IM Fell English',serif;font-size:1.05rem;color:#2c1a0e;margin:0 0 2px">Chanel Classic Flap</p>
-            <p style="font-size:0.85rem;color:#8b5e3c;margin:0 0 4px">Medium · Caviar Leather · Gold Hardware</p>
-            <p style="font-family:'Satisfy',cursive;color:#b8860b;font-size:0.9rem;margin:0">~ $10,800</p>
-          </div>
-        </div>
+  <div class="gallery-item" style="transform:rotate(-2deg);">
+    <div style="background:#fff;padding:14px 14px 40px;box-shadow:3px 3px 18px rgba(44,26,14,0.12);">
+      <img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=500&q=80" alt="Chanel Bag" style="width:100%;height:220px;object-fit:cover;display:block;" onerror="this.style.background='#f5eedc'"/>
+      <div style="margin-top:12px;">
+        <p style="font-family:'IM Fell English',serif;font-size:1.05rem;color:#2c1a0e;margin:0 0 2px">Chanel Classic Flap</p>
+        <p style="font-size:0.85rem;color:#8b5e3c;margin:0">Medium · Caviar Leather · Gold Hardware</p>
       </div>
+    </div>
+  </div>
 
-      <!-- Item 2: Louis Vuitton -->
-      <div class="gallery-item" style="position:absolute;top:30px;left:33%;transform:rotate(1.5deg);width:260px;">
-        <div style="background:#fff;padding:14px 14px 40px;box-shadow:3px 3px 18px rgba(44,26,14,0.12);">
-          <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500&q=80" alt="Louis Vuitton Bag" style="width:100%;height:210px;object-fit:cover;display:block;" onerror="this.src='https://via.placeholder.com/500x400?text=Louis+Vuitton'"/>
-          <div style="margin-top:12px;">
-            <p style="font-family:'IM Fell English',serif;font-size:1.05rem;color:#2c1a0e;margin:0 0 2px">Louis Vuitton Neverfull</p>
-            <p style="font-size:0.85rem;color:#8b5e3c;margin:0 0 4px">MM · Damier Ebene Canvas</p>
-            <p style="font-family:'Satisfy',cursive;color:#b8860b;font-size:0.9rem;margin:0">~ $2,050</p>
-          </div>
-        </div>
+  <div class="gallery-item" style="transform:rotate(1.5deg);margin-top:2rem;">
+    <div style="background:#fff;padding:14px 14px 40px;box-shadow:3px 3px 18px rgba(44,26,14,0.12);">
+      <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500&q=80" alt="LV Bag" style="width:100%;height:220px;object-fit:cover;display:block;" onerror="this.style.background='#f5eedc'"/>
+      <div style="margin-top:12px;">
+        <p style="font-family:'IM Fell English',serif;font-size:1.05rem;color:#2c1a0e;margin:0 0 2px">Louis Vuitton Neverfull</p>
+        <p style="font-size:0.85rem;color:#8b5e3c;margin:0">MM · Damier Ebene Canvas</p>
       </div>
+    </div>
+  </div>
 
-      <!-- Item 3: Perfume -->
-      <div class="gallery-item" style="position:absolute;top:10px;right:2%;transform:rotate(2.5deg);width:250px;">
-        <div style="background:#fff;padding:14px 14px 40px;box-shadow:3px 3px 18px rgba(44,26,14,0.12);">
-          <img src="https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=500&q=80" alt="Luxury Perfume" style="width:100%;height:200px;object-fit:cover;display:block;" onerror="this.src='https://via.placeholder.com/500x400?text=Perfume'"/>
-          <div style="margin-top:12px;">
-            <p style="font-family:'IM Fell English',serif;font-size:1.05rem;color:#2c1a0e;margin:0 0 2px">Chanel No. 5 L'Eau</p>
-            <p style="font-size:0.85rem;color:#8b5e3c;margin:0 0 4px">100ml Eau de Toilette</p>
-            <p style="font-family:'Satisfy',cursive;color:#b8860b;font-size:0.9rem;margin:0">~ $195</p>
-          </div>
-        </div>
+  <div class="gallery-item" style="transform:rotate(2.5deg);">
+    <div style="background:#fff;padding:14px 14px 40px;box-shadow:3px 3px 18px rgba(44,26,14,0.12);">
+      <img src="https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=500&q=80" alt="Perfume" style="width:100%;height:220px;object-fit:cover;display:block;" onerror="this.style.background='#f5eedc'"/>
+      <div style="margin-top:12px;">
+        <p style="font-family:'IM Fell English',serif;font-size:1.05rem;color:#2c1a0e;margin:0 0 2px">Chanel No. 5 L'Eau</p>
+        <p style="font-size:0.85rem;color:#8b5e3c;margin:0">100ml Eau de Toilette</p>
       </div>
+    </div>
+  </div>
 
-      <!-- Item 4: Makeup - Charlotte Tilbury -->
-      <div class="gallery-item" style="position:absolute;top:330px;left:5%;transform:rotate(-1.5deg);width:270px;">
-        <div style="background:#fff;padding:14px 14px 40px;box-shadow:3px 3px 18px rgba(44,26,14,0.12);">
-          <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=500&q=80" alt="Luxury Makeup" style="width:100%;height:210px;object-fit:cover;display:block;" onerror="this.src='https://via.placeholder.com/500x400?text=Charlotte+Tilbury'"/>
-          <div style="margin-top:12px;">
-            <p style="font-family:'IM Fell English',serif;font-size:1.05rem;color:#2c1a0e;margin:0 0 2px">Charlotte Tilbury Vault</p>
-            <p style="font-size:0.85rem;color:#8b5e3c;margin:0 0 4px">Hollywood Beauty Icons Collection</p>
-            <p style="font-family:'Satisfy',cursive;color:#b8860b;font-size:0.9rem;margin:0">~ $350</p>
-          </div>
-        </div>
+  <div class="gallery-item" style="transform:rotate(-1.5deg);">
+    <div style="background:#fff;padding:14px 14px 40px;box-shadow:3px 3px 18px rgba(44,26,14,0.12);">
+      <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=500&q=80" alt="Makeup" style="width:100%;height:220px;object-fit:cover;display:block;" onerror="this.style.background='#f5eedc'"/>
+      <div style="margin-top:12px;">
+        <p style="font-family:'IM Fell English',serif;font-size:1.05rem;color:#2c1a0e;margin:0 0 2px">Charlotte Tilbury Vault</p>
+        <p style="font-size:0.85rem;color:#8b5e3c;margin:0">Hollywood Beauty Icons Collection</p>
       </div>
+    </div>
+  </div>
 
-      <!-- Item 5: Dior Perfume -->
-      <div class="gallery-item" style="position:absolute;top:340px;left:38%;transform:rotate(2deg);width:255px;">
-        <div style="background:#fff;padding:14px 14px 40px;box-shadow:3px 3px 18px rgba(44,26,14,0.12);">
-          <img src="https://images.unsplash.com/photo-1541643600914-78b084683702?w=500&q=80" alt="Dior Perfume" style="width:100%;height:205px;object-fit:cover;display:block;" onerror="this.style.background='#f5eedc'"/>
-          <div style="margin-top:12px;">
-            <p style="font-family:'IM Fell English',serif;font-size:1.05rem;color:#2c1a0e;margin:0 0 2px">Dior Miss Dior</p>
-            <p style="font-size:0.85rem;color:#8b5e3c;margin:0 0 4px">Blooming Bouquet · 100ml EDP</p>
-            <p style="font-family:'Satisfy',cursive;color:#b8860b;font-size:0.9rem;margin:0">~ $165</p>
-          </div>
-        </div>
+  <div class="gallery-item" style="transform:rotate(1deg);margin-top:2rem;">
+    <div style="background:#fff;padding:14px 14px 40px;box-shadow:3px 3px 18px rgba(44,26,14,0.12);">
+      <img src="https://images.unsplash.com/photo-1523293182086-7651a899d37f?w=500&q=80" alt="Dior Perfume" style="width:100%;height:220px;object-fit:cover;display:block;" onerror="this.style.background='#f5eedc'"/>
+      <div style="margin-top:12px;">
+        <p style="font-family:'IM Fell English',serif;font-size:1.05rem;color:#2c1a0e;margin:0 0 2px">Dior Miss Dior</p>
+        <p style="font-size:0.85rem;color:#8b5e3c;margin:0">Blooming Bouquet · 100ml EDP</p>
       </div>
+    </div>
+  </div>
 
-      <!-- Item 6: Gucci bag -->
-      <div class="gallery-item" style="position:absolute;top:310px;right:2%;transform:rotate(-2.5deg);width:265px;">
-        <div style="background:#fff;padding:14px 14px 40px;box-shadow:3px 3px 18px rgba(44,26,14,0.12);">
-          <img src="https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=500&q=80" alt="Gucci Bag" style="width:100%;height:215px;object-fit:cover;display:block;" onerror="this.src='https://via.placeholder.com/500x400?text=Gucci+Bag'"/>
-          <div style="margin-top:12px;">
-            <p style="font-family:'IM Fell English',serif;font-size:1.05rem;color:#2c1a0e;margin:0 0 2px">Gucci Marmont Mini</p>
-            <p style="font-size:0.85rem;color:#8b5e3c;margin:0 0 4px">Matelassé Leather · Dusty Pink</p>
-            <p style="font-family:'Satisfy',cursive;color:#b8860b;font-size:0.9rem;margin:0">~ $1,350</p>
-          </div>
-        </div>
+  <div class="gallery-item" style="transform:rotate(-2.5deg);">
+    <div style="background:#fff;padding:14px 14px 40px;box-shadow:3px 3px 18px rgba(44,26,14,0.12);">
+      <img src="https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=500&q=80" alt="Gucci Bag" style="width:100%;height:220px;object-fit:cover;display:block;" onerror="this.style.background='#f5eedc'"/>
+      <div style="margin-top:12px;">
+        <p style="font-family:'IM Fell English',serif;font-size:1.05rem;color:#2c1a0e;margin:0 0 2px">Gucci Marmont Mini</p>
+        <p style="font-size:0.85rem;color:#8b5e3c;margin:0">Matelassé Leather · Dusty Pink</p>
       </div>
+    </div>
+  </div>
 
-      <!-- Floating label in middle -->
-      <div style="position:absolute;top:590px;left:50%;transform:translateX(-50%);text-align:center;pointer-events:none;">
-        <p style="font-family:'Satisfy',cursive;color:#8b3a52;font-size:1.4rem;opacity:0.5;margin:0">♡ &nbsp; yours if you want it &nbsp; ♡</p>
+  <div class="gallery-item" style="transform:rotate(1.8deg);">
+    <div style="background:#fff;padding:14px 14px 40px;box-shadow:3px 3px 18px rgba(44,26,14,0.12);">
+      <img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=500&q=80" alt="Skincare" style="width:100%;height:220px;object-fit:cover;display:block;" onerror="this.style.background='#f5eedc'"/>
+      <div style="margin-top:12px;">
+        <p style="font-family:'IM Fell English',serif;font-size:1.05rem;color:#2c1a0e;margin:0 0 2px">La Mer Crème</p>
+        <p style="font-size:0.85rem;color:#8b5e3c;margin:0">The Moisturizing Cream · 60ml</p>
       </div>
+    </div>
+  </div>
 
-      <!-- Item 7: Skincare -->
-      <div class="gallery-item" style="position:absolute;top:660px;left:8%;transform:rotate(1.8deg);width:260px;">
-        <div style="background:#fff;padding:14px 14px 40px;box-shadow:3px 3px 18px rgba(44,26,14,0.12);">
-          <img src="https://images.unsplash.com/photo-1570194065650-d99fb4d8a609?w=500&q=80" alt="La Mer Skincare" style="width:100%;height:205px;object-fit:cover;display:block;" onerror="this.style.background='#f5eedc'"/>
-          <div style="margin-top:12px;">
-            <p style="font-family:'IM Fell English',serif;font-size:1.05rem;color:#2c1a0e;margin:0 0 2px">La Mer Crème</p>
-            <p style="font-size:0.85rem;color:#8b5e3c;margin:0 0 4px">The Moisturizing Cream · 60ml</p>
-            <p style="font-family:'Satisfy',cursive;color:#b8860b;font-size:0.9rem;margin:0">~ $395</p>
-          </div>
-        </div>
+  <div class="gallery-item" style="transform:rotate(-1.2deg);margin-top:2rem;">
+    <div style="background:#fff;padding:14px 14px 40px;box-shadow:3px 3px 18px rgba(44,26,14,0.12);">
+      <img src="https://images.unsplash.com/photo-1602173574767-37ac01994b2a?w=500&q=80" alt="Jewelry" style="width:100%;height:220px;object-fit:cover;display:block;" onerror="this.style.background='#f5eedc'"/>
+      <div style="margin-top:12px;">
+        <p style="font-family:'IM Fell English',serif;font-size:1.05rem;color:#2c1a0e;margin:0 0 2px">Tiffany & Co.</p>
+        <p style="font-size:0.85rem;color:#8b5e3c;margin:0">Diamond Solitaire Pendant · 18K Gold</p>
       </div>
+    </div>
+  </div>
 
-      <!-- Item 8: Jewelry -->
-      <div class="gallery-item" style="position:absolute;top:640px;left:36%;transform:rotate(-1.2deg);width:275px;">
-        <div style="background:#fff;padding:14px 14px 40px;box-shadow:3px 3px 18px rgba(44,26,14,0.12);">
-          <img src="https://images.unsplash.com/photo-1602173574767-37ac01994b2a?w=500&q=80" alt="Tiffany Jewelry" style="width:100%;height:215px;object-fit:cover;display:block;" onerror="this.src='https://via.placeholder.com/500x400?text=Tiffany+Jewelry'"/>
-          <div style="margin-top:12px;">
-            <p style="font-family:'IM Fell English',serif;font-size:1.05rem;color:#2c1a0e;margin:0 0 2px">Tiffany & Co.</p>
-            <p style="font-size:0.85rem;color:#8b5e3c;margin:0 0 4px">Diamond Solitaire Pendant · 18K Gold</p>
-            <p style="font-family:'Satisfy',cursive;color:#b8860b;font-size:0.9rem;margin:0">~ $2,200</p>
-          </div>
-        </div>
+  <div class="gallery-item" style="transform:rotate(2.2deg);">
+    <div style="background:#fff;padding:14px 14px 40px;box-shadow:3px 3px 18px rgba(44,26,14,0.12);">
+      <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=500&q=80" alt="Makeup Palette" style="width:100%;height:220px;object-fit:cover;display:block;" onerror="this.style.background='#f5eedc'"/>
+      <div style="margin-top:12px;">
+        <p style="font-family:'IM Fell English',serif;font-size:1.05rem;color:#2c1a0e;margin:0 0 2px">Tom Ford Eyeshadow</p>
+        <p style="font-size:0.85rem;color:#8b5e3c;margin:0">Eye Color Quad · Disco Dust</p>
       </div>
+    </div>
+  </div>
 
-      <!-- Item 9: Makeup palette -->
-      <div class="gallery-item" style="position:absolute;top:670px;right:3%;transform:rotate(2.2deg);width:255px;">
-        <div style="background:#fff;padding:14px 14px 40px;box-shadow:3px 3px 18px rgba(44,26,14,0.12);">
-          <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=500&q=80" alt="Luxury Makeup Palette" style="width:100%;height:205px;object-fit:cover;display:block;" onerror="this.src='https://via.placeholder.com/500x400?text=Makeup+Palette'"/>
-          <div style="margin-top:12px;">
-            <p style="font-family:'IM Fell English',serif;font-size:1.05rem;color:#2c1a0e;margin:0 0 2px">Tom Ford Eyeshadow</p>
-            <p style="font-size:0.85rem;color:#8b5e3c;margin:0 0 4px">Eye Color Quad · Disco Dust</p>
-            <p style="font-family:'Satisfy',cursive;color:#b8860b;font-size:0.9rem;margin:0">~ $90</p>
-          </div>
-        </div>
-      </div>
-
-    </div><!-- end gallery-grid -->
-
+</div><!-- end gallery-grid -->
     <div style="text-align:center;padding:2rem 0 1rem;margin-top:2rem;">
       <p style="font-family:'IM Fell English',serif;font-style:italic;color:#8b3a52;font-size:1.1rem">just say the word. anything for you. ♡</p>
     </div>
